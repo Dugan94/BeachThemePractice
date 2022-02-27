@@ -37,7 +37,6 @@
 </section>
 <h1>Beach Fly Over</h1>
 <video src="videos/170724_15_Setangibeach.mp4"controls height="700"></video>
-
 <table>
   <thead>
     <tr>
@@ -70,7 +69,28 @@
       <td>NA</td>
     </tr>
   </tbody>
-</table>
+</table> 
+<form action="https://learn.nucamp.co/show_everything.php" method="post">
+  Enter your name:
+  <input type="text" name="avatarName" placeholder="Avatar Name"/>
+  <input type="submit" value="Go"/>
+  <!-- Group of Multiple Checkbox Inputs-->
+  <div>
+    <br>
+    Milk <input type="checkbox" name="groceries" value="milk"/>
+    Bread <input type="checkbox" name="groceries" value="bread"/>
+    Noodles <input type="checkbox" name="groceries" value="noodles"/>
+  </div>
+</form>
+<br>
+<p>Choose your favorite beach:</p>
+<form>
+  <input type="radio" id="stinson beach" name="fav_beach" value="STINSON BEACH">
+  <label for="stinson beach">STINSON BEACH</label><br>
+  <input type="radio" id="gold beach" name="fav_beach" value="GOLD BEACH">
+  <label for="gold beach">GOLD BEACH</label><br>
+  <input type="radio" id="ocean beach" name="fav_beach" value="OCEAN">
+  <label for="ocean beach">OCEAN BEACH</label><br>
+</form>
   </body>
- 
 </html>
